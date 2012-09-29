@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  script(src='/javascripts/queryetsy.js')
+  #header
+    img.logo(src='https://s3.amazonaws.com/siteassets.etsy.com/press/Website/etsy-logo.png')
+    
+  form.standardBorder(name='/', id='etsyquery')
+    input(name='api', type='hidden', value='etsy')
+    label(for='type') Type of thing:
+    select(name='type')
+      //- for(var i = 0; i < cabins.length; i++)
+      option(value='color') Color
+      option(value='tag') Tag
+    br
+    label(for='search') Your Search:
+    input(name='search', type='text')
+
+  span.button.standardBorder#submit Submit Query
+
+
