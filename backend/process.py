@@ -2,7 +2,7 @@ import urllib2
 import json
 import sys
 
-def concat_URL(type, search):
+def etsyAPICall(type, search):
     if type == "":
         URL = "http://openapi.etsy.com/v2/private/listings/active?&api_key=f0zll6x1q1bislf7w0dgodg4"
     else:
