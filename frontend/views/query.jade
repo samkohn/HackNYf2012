@@ -6,7 +6,7 @@ block content
     img.logo(src=image)
   
   #content.whiteBorder
-    form.(name='query', id='thequery')
+    form(name='query', id='thequery')
       input(id='api', name='api', type='hidden', value=api)
       label(for='type') Type of thing:
       select(id='type', name='type')
@@ -16,6 +16,6 @@ block content
       label(for='search') Your Search:
       input(id='search', name='search', type='text')
 
-    span.button.standardBorder#submit Submit Query
+    span.button#submit Submit Query
 
 
