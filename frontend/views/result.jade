@@ -19,7 +19,7 @@ block content
   - var shortFactor = String(factor).substring(0,4)
   #response.whiteBorder
     | There are #{value} matches for "#{type} = #{search}" at #{api}.
-    | That's about #{shortFactor} times #{comparison}!
+    | That's about #{shortFactor} times the #{comparison}!
   #picture.whiteBorder
     - for(i=1;i<=Math.floor(factor);i++)
       img.resultImage(src=imageLink, alt=comparison)
