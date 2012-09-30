@@ -21,10 +21,10 @@ block content
     | That's about #{factor} times #{comparison}!
   #picture
     - for(i=1;i<=Math.floor(factor);i++)
-      img(src=imageLink, alt=comparison)
-    - var scailer = (factor % 1)*100
+      img.resultImage(src=imageLink, alt=comparison)
+    - var scailer = (factor % 1) * 200
 
-    img(src=imageLink, alt=comparison, style='width:#{scailer}%')
+    img(src=imageLink, alt=comparison, style='width:#{scailer}px')
     
     
     

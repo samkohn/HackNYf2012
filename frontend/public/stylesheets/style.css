@@ -44,6 +44,10 @@ form {
   text-align : center;
 }
 
+.resultImage {
+  width : 250px;
+}
+
 #response {
 		text-align : center;
 		padding : 20px;
