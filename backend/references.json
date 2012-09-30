@@ -1,67 +1,67 @@
 {
-  items = [{
-    comparison : 'number of iPhone 5's that fit end-to-end between the Earth and Moon',
-    comparisonValue : 3195000000,
-    imageLink : 'http://www.straightnorth.com/blog/wp-content/uploads/2007/10/word-sell-earth-moon.jpg',
+  "items" : [{
+    "comparison" : "number of iPhone 5's that fit end-to-end between the Earth and Moon",
+    "comparisonValue" : 3195000000,
+    "imageLink" : "http://www.straightnorth.com/blog/wp-content/uploads/2007/10/word-sell-earth-moon.jpg"
   },
   {
-    comparison : 'number of iPhone 4S's that fit end-to-end between the Earth and Moon',
-    comparisonValue : 3458000000,
-    imageLink : 'http://www.straightnorth.com/blog/wp-content/uploads/2007/10/word-sell-earth-moon.jpg',
+    "comparison" : "number of iPhone 4S's that fit end-to-end between the Earth and Moon",
+    "comparisonValue" : 3458000000,
+    "imageLink" : "http://www.straightnorth.com/blog/wp-content/uploads/2007/10/word-sell-earth-moon.jpg"
   },
   {
-    comparison : 'number of people who voted for Obama in 2008',
-    comparisonValue : 69456897,
-    imageLink : 'http://en.wikipedia.org/wiki/File:Barack_Obama.jpg',
+    "comparison" : "number of people who voted for Obama in 2008",
+    "comparisonValue" : 69456897,
+    "imageLink" : "http://en.wikipedia.org/wiki/File:Barack_Obama.jpg"
   },
   {
-    comparison : 'number of people who voted for McCain in 2008',
-    comparisonValue : 59934814,
-    imageLink : 'http://en.wikipedia.org/wiki/File:John_McCain_official_photo_portrait-cropped-background_edit.JPG',
+    "comparison" : "number of people who voted for McCain in 2008",
+    "comparisonValue" : 59934814,
+    "imageLink" : "http://en.wikipedia.org/wiki/File:John_McCain_official_photo_portrait-cropped-background_edit.JPG"
   },
   {
-    comparison : 'number of books in the Library of Congress',
-    comparisonValue : 22765967,
-    imageLink : 'http://b5media_b4.s3.amazonaws.com/28/files/2008/05/library-of-congress-jeffersons-library.jpg',
+    "comparison" : "number of books in the Library of Congress",
+    "comparisonValue" : 22765967,
+    "imageLink" : "http://b5media_b4.s3.amazonaws.com/28/files/2008/05/library-of-congress-jeffersons-library.jpg"
   },
   {
-    comparison : 'number of liters of water that fit in Sam's bubba',
-    comparisonValue : 1.5,
-    imageLink : 'http://www.shopbubba.com/popup.aspx?src=images/product/large/50_1_.jpg',
+    "comparison" : "number of liters of water that fit in Sam's bubba",
+    "comparisonValue" : 1.5,
+    "imageLink" : "http://www.shopbubba.com/popup.aspx?src=images/product/large/50_1_.jpg"
   },
   {
-    comparison : 'number of hackers at this hackathon',
-    comparisonValue : 459,
-    imageLink : 'http://twimg0-a.akamaihd.net/profile_images/798720047/hackny_logo_square.png',
+    "comparison" : "number of hackers at this hackathon",
+    "comparisonValue" : 459,
+    "imageLink" : "http://twimg0-a.akamaihd.net/profile_images/798720047/hackny_logo_square.png"
   },
   {
-    comparison : 'number of miles light travels in 1 minute',
-    comparisonValue : 11180000,
-    imageLink : 'http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/RGB_laser.jpg/300px-RGB_laser.jpg',
+    "comparison" : "number of miles light travels in 1 minute",
+    "comparisonValue" : 11180000,
+    "imageLink" : "http://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/RGB_laser.jpg/300px-RGB_laser.jpg"
   },
   {
-    comparison : 'population of Wyoming',
-    comparisonValue : 568158,
-    imageLink : 'http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Wyoming.svg/250px-Flag_of_Wyoming.svg.png',
+    "comparison" : "population of Wyoming",
+    "comparisonValue" : 568158,
+    "imageLink" : "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Wyoming.svg/250px-Flag_of_Wyoming.svg.png"
   },
   {
-    comparison : 'number of people who have ever walked on the Moon',
-    comparisonValue : 12,
-    imageLink : 'http://s1.reutersmedia.net/resources/r/?m=02&d=20120825&t=2&i=646027330&w=&fh=&fw=&ll=460&pl=300&r=CBRE87O1HE400',
+    "comparison" : "number of people who have ever walked on the Moon",
+    "comparisonValue" : 12,
+    "imageLink" : "http://s1.reutersmedia.net/resources/r/?m=02&d=20120825&t=2&i=646027330&w=&fh=&fw=&ll=460&pl=300&r=CBRE87O1HE400"
   },
   {
-    comparison : 'radius of the Earth in miles',
-    comparisonValue : 3956.6,
-    imageLink : 'http://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/270px-The_Earth_seen_from_Apollo_17.jpg',
+    "comparison" : "radius of the Earth in miles",
+    "comparisonValue" : 3956.6,
+    "imageLink" : "http://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/270px-The_Earth_seen_from_Apollo_17.jpg"
   },
   {
-    comparison : 'number of MB in a GB',
-    comparisonValue : 1024,
-    imageLink : 'http://www.photoanswers.co.uk/upload/4555/images/megabyte.jpg',
+    "comparison" : "number of MB in a GB",
+    "comparisonValue" : 1024,
+    "imageLink" : "http://www.photoanswers.co.uk/upload/4555/images/megabyte.jpg"
   },
   {
-    comparison : 'number of minutes in a week',
-    comparisonValue : 10080,
-    imageLink : 'http://loretoenglish.wikispaces.com/file/view/DAYS_OF_THE_WEEK2.jpg/58273876/DAYS_OF_THE_WEEK2.jpg',
+    "comparison" : "number of minutes in a week",
+    "comparisonValue" : 10080,
+    "imageLink" : "http://loretoenglish.wikispaces.com/file/view/DAYS_OF_THE_WEEK2.jpg/58273876/DAYS_OF_THE_WEEK2.jpg"
   }]
 }
