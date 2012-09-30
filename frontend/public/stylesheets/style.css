@@ -10,6 +10,15 @@ h1 {
 	font : 20px;
 }
 
+ul{
+  list-style-type: none;
+  
+}
+
+ul li {
+  display: inline; 
+}
+
 a {
   color: #00B7FF;
 }
