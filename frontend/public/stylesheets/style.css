@@ -5,6 +5,7 @@ body {
 
 h1 {
 	color : #FF0000;
+	font : 20px;
 }
 
 a {
@@ -41,5 +42,6 @@ form {
 
 #results {
 		text-align : center;
+		padding : 20px;
 		
 }
