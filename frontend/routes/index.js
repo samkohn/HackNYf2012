@@ -50,7 +50,10 @@ exports.sendquery = function(req, res){
       var response = JSON.parse(data);
       console.log('data = ' + data);
       console.log('JSON.stringify(response) = ' + JSON.stringify(response));
-      res.render('queryetsy', { title: 'Etsy', api: 'Etsy' });
+      response.title = 'Results';
+      response.type = type;
+      response.search = search;
+      res.render('result', response);
     });
   });
 };

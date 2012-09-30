@@ -2,6 +2,22 @@ extends layout
 
 block content
   h1= title
-  ul
-    li api= #{api}
-    li value= #{value}
+  //
+    #data
+    ul
+      li api= #{api}
+      li value= #{value}
+      li factor= #{factor}
+      li comparison= #{comparison}
+      li comparisonValue= #{comparisonValue}
+      li image= #{image}
+      li search= #{search}
+      li type= #{type}
+      li
+        | image=
+
+  #response
+    | There are #{value} matches for "#{type} = #{search}" at #{api}.
+    | That's about #{factor} times #{comparison}!
+  #picture
+    img(src=image, alt=comparison)

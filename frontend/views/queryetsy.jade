@@ -9,9 +9,13 @@ block content
     input(id='api', name='api', type='hidden', value='etsy')
     label(for='type') Type of thing:
     select(id='type', name='type')
-      //- for(var i = 0; i < cabins.length; i++)
       option(value='color') Color
-      option(value='tag') Tag
+      option(value='category') Etsy Category
+      option(value='min_price') Min Price
+      option(value='max_price') Max Price
+      option(value='materials') Material
+      option(value='private') Number of Items in API
+      option(value='keywords') Item Description
     br
     label(for='search') Your Search:
     input(id='search', name='search', type='text')
