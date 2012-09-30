@@ -3,10 +3,11 @@ extends layout
 block content
   // script(src='/javascripts/index.js')
   #header
-    h1= title
+    h1 = title
 
-  p Awesome Data Visualization Webpage!
-  for image, api in apis
-    .logo(id=api)
-      a(href='/query/#{api}')
-        img.logo(src=image, alt=api)
+  #content.standardBorder
+    p The Awesome Data Visualization Webpage!
+    for image, api in apis
+      .logo(id=api)
+        a(href='/query/#{api}')
+          img.logo(src=image, alt=api)
