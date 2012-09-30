@@ -10,3 +10,6 @@ test = {'test': 'test'}
 collection.insert(test)
 # shows back the test 
 collection.find_one()
+
+# Useful commands for local console
+# mongo localhost/admin
