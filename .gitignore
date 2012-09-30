@@ -1,3 +1,7 @@
 *.swp
 .DS_Store
 backend/temboo-python-sdk-1.70.zip
+
+frontend/views/result.jade.old
+
+frontend/public/stylesheets/style.css.old
