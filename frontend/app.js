@@ -27,7 +27,7 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
-app.get('/query/etsy', routes.query.etsy);
+app.get('/query/:api', routes.query);
 app.get('/result', routes.result);
 app.get('/sendquery', routes.sendquery);
 

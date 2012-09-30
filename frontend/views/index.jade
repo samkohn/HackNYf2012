@@ -1,13 +1,12 @@
 extends layout
 
 block content
-  script(src='/javascripts/index.js')
+  // script(src='/javascripts/index.js')
   #header
     h1= title
 
   p Awesome Data Visualization Webpage!
-
-
-  #apiList
-  #etsy.logo
-    img(src='https://s3.amazonaws.com/siteassets.etsy.com/press/Website/etsy-logo.png', alt='Etsy Logo')
+  for image, api in apis
+    .logo(id=api)
+      a(href='/query/#{api}')
+        img.logo(src=image, alt=api)
