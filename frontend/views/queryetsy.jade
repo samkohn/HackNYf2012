@@ -6,15 +6,15 @@ block content
     img.logo(src='https://s3.amazonaws.com/siteassets.etsy.com/press/Website/etsy-logo.png')
     
   form.standardBorder(name='query', id='etsyquery')
-    input(name='api', type='hidden', value='etsy')
+    input(id='api', name='api', type='hidden', value='etsy')
     label(for='type') Type of thing:
-    select(name='type')
+    select(id='type', name='type')
       //- for(var i = 0; i < cabins.length; i++)
       option(value='color') Color
       option(value='tag') Tag
     br
     label(for='search') Your Search:
-    input(name='search', type='text')
+    input(id='search', name='search', type='text')
 
   span.button.standardBorder#submit Submit Query
 
