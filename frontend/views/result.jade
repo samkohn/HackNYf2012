@@ -26,13 +26,10 @@ block content
     - var scailer = Math.sqrt((factor % 1)) * 200
     // - scailer = Math.sqrt(scailer)
 
-    img(src=imageLink, alt=comparison, style='width:#{scailer}px')
+    img#small(src=imageLink, alt=comparison, style='width:#{scailer}px')
     
     
     
   #footer
     a(href='/query/#{api}')
       span.button#submit Return to Search
-      
-    a(href='/')
-      span.button#submit Go Back to API
