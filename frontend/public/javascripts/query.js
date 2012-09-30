@@ -1,6 +1,6 @@
 $('document').ready( function() {
   $('#submit').click( function() {
-    var $form = $('#etsyquery');
+    var $form = $('#thequery');
     $form.attr('action', '/sendquery');
     $form.attr('method', 'GET');
     $form.submit();

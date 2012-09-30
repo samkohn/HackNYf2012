@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 extends layout
 
 block content
@@ -19,3 +20,25 @@ block content
     span.button.standardBorder#submit Submit Query
 
 
+=======
+extends layout
+
+block content
+  script(src='/javascripts/query.js')
+  #header
+    img.logo(src=image)
+    
+  form.standardBorder(name='query', id='thequery')
+    input(id='api', name='api', type='hidden', value=api)
+    label(for='type') Type of thing:
+    select(id='type', name='type')
+      each search in options
+        option(value=search.type) #{search.display}
+    br
+    label(for='search') Your Search:
+    input(id='search', name='search', type='text')
+
+  span.button.standardBorder#submit Submit Query
+
+
+>>>>>>> fixed some small html id problems in query.js and query.jade
