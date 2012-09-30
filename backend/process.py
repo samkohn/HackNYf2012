@@ -3,7 +3,7 @@ import json
 import sys
 
 def concat_URL(type, search):
-    if type = "":
+    if type == "":
         URL = "http://openapi.etsy.com/v2/private/listings/active?&api_key=f0zll6x1q1bislf7w0dgodg4"
     else:
         URL = "http://openapi.etsy.com/v2/private/listings/active?limit=1000000&offset=0&" + type + "=" + search + "&api_key=f0zll6x1q1bislf7w0dgodg4"
