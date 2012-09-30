@@ -3,6 +3,7 @@ var http = require('http');
 var imageFor = {};
 imageFor['etsy'] = 'https://s3.amazonaws.com/siteassets.etsy.com/press/Website/etsy-logo.png';
 imageFor['donorschoose'] = 'http://cdn.donorschoose.net/images/link/dc_banner_280_60.jpg';
+imageFor['behance'] = 'http://www.veryicon.com/icon/png/Internet%20%26%20Web/Pretty%20Social%20Media/behance.png';
 
 var apiQueriesFor = {};
 apiQueriesFor['etsy'] = [
@@ -24,6 +25,20 @@ apiQueriesFor['etsy'] = [
 apiQueriesFor['donorschoose'] = [
   { 'type' : 'null',
     'display' : 'Search by Keyword'}];
+
+apiQueriesFor['behance'] = [
+  { 'type' : 'projects?q',
+    'display' : 'Keyword (Project)'},
+  { 'type' : 'projects?city',
+    'display' : 'City (Project)'},
+  { 'type' : 'projects?tags',
+    'display' : 'Project Tag'},
+  { 'type' : 'users?q',
+    'display' : 'Keyword (User)'},
+  { 'type' : 'users?city',
+    'display' : 'City (User)'},
+  { 'type' : 'users?tags',
+    'display' : 'User Tag'}];
 
 
 /*
@@ -67,6 +82,7 @@ exports.sendquery = function(req, res){
   var api = req.query.api;
   var search = req.query.search;
 
+
   var path = '/query/?';
   path += 'api=' + api + '&';
   path += 'type=' + type + '&';
@@ -84,8 +100,19 @@ exports.sendquery = function(req, res){
       console.log('data = ' + data);
       console.log('JSON.stringify(response) = ' + JSON.stringify(response));
       response.title = 'Results';
+
+      for(var i = 0; i < apiQueriesFor[api].length; i++) {
+        if(apiQueriesFor[api][i]['type'] === type)
+        {
+          console.log('type = ' + type);
+          type = apiQueriesFor[api][i]['display'];
+          break;
+        }
+      }
+
       response.type = type;
       response.search = search;
+
       res.render('result', response);
     });
   });
