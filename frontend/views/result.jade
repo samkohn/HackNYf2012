@@ -10,7 +10,7 @@ block content
       li factor= #{factor}
       li comparison= #{comparison}
       li comparisonValue= #{comparisonValue}
-      li image= #{image}
+      li image= #{imageLink}
       li search= #{search}
       li type= #{type}
       li
@@ -20,4 +20,4 @@ block content
     | There are #{value} matches for "#{type} = #{search}" at #{api}.
     | That's about #{factor} times #{comparison}!
   #picture
-    img(src=image, alt=comparison)
+    img(src=imageLink, alt=comparison)

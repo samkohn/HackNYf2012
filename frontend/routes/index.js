@@ -83,6 +83,7 @@ exports.sendquery = function(req, res){
   
   var options = {host : host, port : port, path : path};
 
+
   http.get(options, function(response) {
     response.on('data', function(data) {
       var response = JSON.parse(data);
