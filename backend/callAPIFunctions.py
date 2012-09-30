@@ -3,16 +3,10 @@ import process
 def findAPIType(api, type, search):
     if api == "etsy":
         if type == "all":
-            process.concat_url("","")
+            return process.etsyAPICall("","")
         else:
-            process.concat_url(type, search)
+            return process.etsyAPICall(type, search)
     
     if api == "tumblr":
-        
-    
-    if api == "behance":
-        
-    
-    if api == "bitly":
-        
+        return "tumblr is not implemented"
     
