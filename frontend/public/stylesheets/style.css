@@ -26,6 +26,12 @@ a {
 .standardBorder {
   border : solid;
   border-radius : 4px;
+  border-color: #000000
+}
+
+.whiteBorder {
+  border : solid;
+  border-radius : 4px;
   border-color: #FFFFFF
 }
 
