@@ -1,5 +1,5 @@
 {
-  {
+  items = [{
     comparison : 'number of iPhone 5's that fit end-to-end between the Earth and Moon',
     comparisonValue : 3195000000,
     imageLink : 'http://www.straightnorth.com/blog/wp-content/uploads/2007/10/word-sell-earth-moon.jpg',
@@ -63,5 +63,5 @@
     comparison : 'number of minutes in a week',
     comparisonValue : 10080,
     imageLink : 'http://loretoenglish.wikispaces.com/file/view/DAYS_OF_THE_WEEK2.jpg/58273876/DAYS_OF_THE_WEEK2.jpg',
-  },
+  }]
 }
