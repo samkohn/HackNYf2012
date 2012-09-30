@@ -3,6 +3,10 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+h1 {
+	color : #FF0000;
+}
+
 a {
   color: #00B7FF;
 }
@@ -28,4 +32,14 @@ form {
   width : 33%;
   padding : 8px;
   margin : 16px;
+}
+
+#picture {
+	width : 100%;
+	padding : 20px;
+}
+
+#results {
+		text-align : center;
+		
 }
