@@ -20,7 +20,12 @@ block content
     | There are #{value} matches for "#{type} = #{search}" at #{api}.
     | That's about #{factor} times #{comparison}!
   #picture
-    img(src=imageLink, alt=comparison)
+    - for(i=1;i<=Math.floor(factor);i++)
+      img(src=imageLink, alt=comparison)
+    script 
+      var scailer = factor % 1
+      img(src=imageLink, alt=comparison, style=width:scailer)
+    
     
     
   #footer
