@@ -2,7 +2,6 @@ var http = require('http');
 
 var imageFor = {};
 imageFor['etsy'] = 'https://s3.amazonaws.com/siteassets.etsy.com/press/Website/etsy-logo.png';
-imageFor['govtrack'] = 'http://www.govtrack.us/static/images/logo.gif';
 imageFor['donorschoose'] = 'http://cdn.donorschoose.net/images/link/dc_banner_280_60.jpg';
 
 var apiQueriesFor = {};
@@ -26,23 +25,13 @@ apiQueriesFor['donorschoose'] = [
   { 'type' : 'null',
     'display' : 'Search by Keyword'}];
 
-apiQueriesFor['govtrack'] = [
-  { 'type' : 'role/?party',
-    'display' : 'Political Party'},
-  { 'type' : 'role/?state',
-    'display' : 'State (abbreviation)'},
-  { 'type' : 'person/?gender',
-    'display' : 'Gender'},
-  { 'type' : 'vote_voter/?person',
-    'display' : 'Number of Votes by Person ID'}];
-
 
 /*
  * GET home page.
  */
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Hey There!', apis : imageFor });
+  res.render('index', { title: 'Order of Magnitude!', apis : imageFor });
 };
 
 exports.result = function(req, res){

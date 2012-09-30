@@ -16,13 +16,15 @@ block content
       li
         | image=
 
+  - var shortFactor = String(factor).substring(0,4)
   #response.standardBorder
     | There are #{value} matches for "#{type} = #{search}" at #{api}.
-    | That's about #{factor} times #{comparison}!
+    | That's about #{shortFactor} times #{comparison}!
   #picture
     - for(i=1;i<=Math.floor(factor);i++)
       img.resultImage(src=imageLink, alt=comparison)
-    - var scailer = (factor % 1) * 200
+    - var scailer = Math.sqrt((factor % 1)) * 200
+    // - scailer = Math.sqrt(scailer)
 
     img(src=imageLink, alt=comparison, style='width:#{scailer}px')
     
