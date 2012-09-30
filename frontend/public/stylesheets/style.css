@@ -50,6 +50,8 @@ form {
 
 #submit {
 	width : 800px;
+  padding : 8px;
+  margin : 16px;
 }
 
 #content {
