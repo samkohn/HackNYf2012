@@ -23,7 +23,7 @@ block content
   #picture.whiteBorder
     - for(i=1;i<=Math.floor(factor);i++)
       img.resultImage(src=imageLink, alt=comparison)
-    - var scailer = Math.sqrt((factor % 1)) * 200
+    - var scailer = Math.sqrt((factor % 1)) * 250
     // - scailer = Math.sqrt(scailer)
 
     img#small(src=imageLink, alt=comparison, style='width:#{scailer}px')
