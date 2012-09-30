@@ -22,9 +22,9 @@ block content
   #picture
     - for(i=1;i<=Math.floor(factor);i++)
       img(src=imageLink, alt=comparison)
-    script 
-      var scailer = factor % 1
-      img(src=imageLink, alt=comparison, style=width:scailer)
+    - var scailer = (factor % 1)*100
+
+    img(src=imageLink, alt=comparison, style='width:#{scailer}%')
     
     
     
