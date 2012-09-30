@@ -4,17 +4,18 @@ block content
   script(src='/javascripts/query.js')
   #header
     img.logo(src=image)
-    
-  form.standardBorder(name='query', id='#{api}query')
-    input(id='api', name='api', type='hidden', value=api)
-    label(for='type') Type of thing:
-    select(id='type', name='type')
-      each search in options
-        option(value=search.type) #{search.display}
-    br
-    label(for='search') Your Search:
-    input(id='search', name='search', type='text')
+  
+  #content
+    form.standardBorder(name='query', id='#{api}query')
+      input(id='api', name='api', type='hidden', value=api)
+      label(for='type') Type of thing:
+      select(id='type', name='type')
+        each search in options
+          option(value=search.type) #{search.display}
+      br
+      label(for='search') Your Search:
+      input(id='search', name='search', type='text')
 
-  span.button.standardBorder#submit Submit Query
+    span.button.standardBorder#submit Submit Query
 
 
