@@ -3,6 +3,7 @@ var http = require('http');
 var imageFor = {};
 imageFor['etsy'] = 'https://s3.amazonaws.com/siteassets.etsy.com/press/Website/etsy-logo.png';
 imageFor['govtrack'] = 'http://www.govtrack.us/static/images/logo.gif';
+imageFor['donorschoose'] = 'http://cdn.donorschoose.net/images/link/dc_banner_280_60.jpg';
 
 var apiQueriesFor = {};
 apiQueriesFor['etsy'] = [
@@ -20,6 +21,10 @@ apiQueriesFor['etsy'] = [
     'display' : 'Number of Items in API'},
   { 'type' : 'keywords',
     'display' : 'Item Description'}];
+
+apiQueriesFor['donorschoose'] = [
+  { 'type' : 'null',
+    'display' : 'Search by Keyword'}];
 
 apiQueriesFor['govtrack'] = [
   { 'type' : 'role/?party',
